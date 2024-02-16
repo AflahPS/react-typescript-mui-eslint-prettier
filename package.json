@@ -57,5 +57,24 @@
         "eslint-plugin-react": "^7.33.2",
         "eslint-plugin-react-hooks": "^4.6.0",
         "prettier": "^3.2.5"
-    }
+    },
+    "keywords": [
+        "react",
+        "react template",
+        "react sample",
+        "react sample template",
+        "react typescript",
+        "react typescript sample",
+        "react typescript sample template",
+        "react-typescript",
+        "react typescript mui",
+        "react typescript mui sample",
+        "react typescript mui sample template",
+        "react-typescript-mui",
+        "react eslint",
+        "react eslint prettier",
+        "react eslint prettier template",
+        "react eslint prettier sample",
+        "react eslint prettier sample template"
+    ]
 }
