@@ -1,0 +1,72 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb",
+    "airbnb-typescript",
+    "eslint:recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "no-mixed-operators": "off",
+    "no-unexpected-multiline": "warn",
+    "prettier/prettier": ["warn"],
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-indent": 0,
+    "import/prefer-default-export": 0,
+    "dot-notation": 0,
+    "prefer-destructuring": [
+      "warn",
+      {
+        "VariableDeclarator": {
+          "array": false,
+          "object": true
+        },
+        "AssignmentExpression": {
+          "array": true,
+          "object": false
+        }
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "prefer-const": [
+      "warn",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "react/prop-types": ["warn"],
+    "import/no-useless-path-segments": 0,
+    "react/jsx-filename-extension": 0,
+    "no-console": "off",
+    "react/forbid-prop-types": 0,
+    "react/jsx-indent-props": 0,
+    "no-plusplus": 0,
+    "no-shadow": 0,
+    "react/jsx-wrap-multilines": 0,
+    "object-curly-spacing": ["warn"],
+    "react/jsx-boolean-value": 0,
+    "react/desturturing-assignment": 0,
+    "no-unneeded-ternary": 0,
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
